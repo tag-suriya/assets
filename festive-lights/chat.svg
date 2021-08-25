@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_23" data-name="Group 23" transform="translate(-795 -1144)">
+        <g id="Icon_ionic-md-chatbubbles" data-name="Icon ionic-md-chatbubbles" transform="translate(793.625 1142.625)">
+            <path id="Path_14" data-name="Path 14" class="cls-1" d="M7.452 21.25A2.509 2.509 0 0 1 5.3 19.1v-7.85h-.463a1.467 1.467 0 0 0-1.462 1.462v13.153l2.813-2.788h10.341a1.485 1.485 0 0 0 1.462-1.486v-.341z" transform="translate(0 -2.49)"/>
+            <path id="Path_15" data-name="Path 15" class="cls-1" d="M23.187 3.375H9.764a1.683 1.683 0 0 0-1.678 1.678v10.87a1.687 1.687 0 0 0 1.678 1.683h11.452l3.649 2.548V5.053a1.683 1.683 0 0 0-1.678-1.678z" transform="translate(-1.49)"/>
+        </g>
+        <path id="Rectangle_18" data-name="Rectangle 18" transform="translate(795 1144)" style="fill:none" d="M0 0h24v24H0z"/>
+    </g>
+</svg>
