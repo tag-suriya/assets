@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="37.269" height="33.94" viewBox="0 0 37.269 33.94"><defs><style>.a{fill:#fff;}</style></defs><g transform="translate(0.004 0)"><g transform="translate(-0.004 0)"><path class="a" d="M31.029,33.94H6.25A6.251,6.251,0,0,1,.828,24.572L13.263,3.117A6.184,6.184,0,0,1,18.635,0h0a6.176,6.176,0,0,1,5.405,3.117L36.426,24.572a6.242,6.242,0,0,1-5.4,9.368ZM15.386,4.361,3,25.816a3.764,3.764,0,0,0,3.25,5.637H31.029a3.764,3.764,0,0,0,3.25-5.637L21.894,4.361a3.739,3.739,0,0,0-3.258-1.874h0a3.731,3.731,0,0,0-3.25,1.874Z" transform="translate(0.004 0)"/><path class="a" d="M19.925,27.076a1.973,1.973,0,0,1,2.114-1.965,1.973,1.973,0,0,1,2.089,1.965,2.114,2.114,0,1,1-4.228,0Zm.058-13.6h4.145l-.68,10.073H20.712Z" transform="translate(-3.399 -2.305)"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="Group_249" data-name="Group 249" transform="translate(-4603 -4266)">
+    <rect id="Rectangle_130" data-name="Rectangle 130" width="44" height="44" transform="translate(4603 4266)" fill="none"/>
+    <g id="order-issues" transform="translate(4607.004 4271)">
+      <g id="Group_239" data-name="Group 239" transform="translate(-0.005 0)">
+        <path id="Path_210" data-name="Path 210" d="M30.8,33.694H6.2a6.206,6.206,0,0,1-5.383-9.3l12.345-21.3A6.139,6.139,0,0,1,18.5,0h0a6.131,6.131,0,0,1,5.366,3.094l12.3,21.3a6.2,6.2,0,0,1-5.361,9.3ZM15.275,4.329l-12.3,21.3a3.737,3.737,0,0,0,3.226,5.6H30.8a3.737,3.737,0,0,0,3.226-5.6l-12.3-21.3A3.712,3.712,0,0,0,18.5,2.469h0A3.7,3.7,0,0,0,15.275,4.329Z" transform="translate(0.005 0)" fill="#fff"/>
+        <path id="Path_211" data-name="Path 211" d="M19.925,26.978a1.959,1.959,0,0,1,2.1-1.951A1.959,1.959,0,0,1,24.1,26.978a2.1,2.1,0,1,1-4.2,0Zm.058-13.5H24.1l-.675,10H20.706Z" transform="translate(-3.518 -2.386)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
