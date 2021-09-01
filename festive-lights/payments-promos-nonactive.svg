@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="Group_250" data-name="Group 250" transform="translate(-4706 -4266)">
+    <rect id="Rectangle_131" data-name="Rectangle 131" width="44" height="44" transform="translate(4706 4266)" fill="none"/>
+    <g id="payments-promos-nonactive" transform="translate(3647 3935.44)">
+      <g id="Group_241" data-name="Group 241" transform="translate(1059 338.56)">
+        <g id="Group_240" data-name="Group 240">
+          <path id="Path_212" data-name="Path 212" d="M39.738,16.38a7.238,7.238,0,1,0,5.129,2.114A7.238,7.238,0,0,0,39.738,16.38Zm1.326,6.939V24H39.4v1.19h2.38v.878H37.568V25.19h.694V24h-.694v-.676h.694v-.176c0-1.238.826-1.994,2.257-1.994a2.758,2.758,0,0,1,1.4.325l-.343.878A1.976,1.976,0,0,0,40.54,22.1c-.738,0-1.142.343-1.142,1.019v.193Z" transform="translate(-3.954 -1.993)" fill="#464646"/>
+          <path id="Path_213" data-name="Path 213" d="M35.784,14.069V9.73H0V19.761a3.048,3.048,0,0,0,3.057,3.048H27.044v-.132a8.783,8.783,0,0,1,8.74-8.608Z" transform="translate(0 -1.184)" fill="#464646"/>
+          <path id="Path_214" data-name="Path 214" d="M35.784,3.057A3.048,3.048,0,0,0,32.736,0H3.057A3.057,3.057,0,0,0,0,3.057V5.033H35.784Z" fill="#464646"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
