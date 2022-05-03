@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="41" viewBox="0 0 35 41">
+  <g id="Group_11658" data-name="Group 11658" transform="translate(-312 -604)">
+    <path id="Polygon_2" data-name="Polygon 2" d="M27.311,0a6,6,0,0,1,5.177,2.968l6.736,11.5a6,6,0,0,1,0,6.065l-6.736,11.5A6,6,0,0,1,27.311,35H13.689a6,6,0,0,1-5.177-2.968l-6.736-11.5a6,6,0,0,1,0-6.065l6.736-11.5A6,6,0,0,1,13.689,0Z" transform="translate(347 604) rotate(90)" fill="#25b3e8" opacity="0.16"/>
+    <g id="desktop" transform="translate(320.5 613.5)">
+      <path id="Icon_awesome-ticket-alt" data-name="Icon awesome-ticket-alt" d="M4.5,7.875H15.75v6.75H4.5ZM18.563,11.25a1.687,1.687,0,0,0,1.688,1.688v3.375A1.687,1.687,0,0,1,18.563,18H1.688A1.687,1.687,0,0,1,0,16.313V12.938A1.688,1.688,0,0,0,0,9.563V6.188A1.687,1.687,0,0,1,1.688,4.5H18.563A1.687,1.687,0,0,1,20.25,6.188V9.563A1.687,1.687,0,0,0,18.563,11.25ZM16.875,7.594a.844.844,0,0,0-.844-.844H4.219a.844.844,0,0,0-.844.844v7.313a.844.844,0,0,0,.844.844H16.031a.844.844,0,0,0,.844-.844Z" transform="translate(-0.625)" fill="#25b3e8"/>
+      <line id="Line_9" data-name="Line 9" y2="4.25" transform="translate(9.5 9.125)" fill="none" stroke="#d7eef7" stroke-width="1"/>
+      <line id="Line_10" data-name="Line 10" x1="4.5" transform="translate(7.25 11.25)" fill="none" stroke="#d7eef7" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
