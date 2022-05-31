@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="141.456" height="155.499" viewBox="0 0 141.456 155.499">
+  <g id="search" transform="translate(-0.656 -0.895)">
+    <g id="_01-Date-_-Time-Picker" data-name="01-Date-&amp;-Time-Picker" transform="translate(-1053 -113)">
+      <g id="Group-121" transform="translate(1054 114)">
+        <g id="Group-7" transform="translate(0 0.157)">
+          <path id="Stroke-1" d="M95.463,154.834s-.432-.045-1.209-.153" fill="none" stroke="#aeb5bb" stroke-linecap="round" stroke-width="0.732" fill-rule="evenodd"/>
+          <path id="Stroke-3" d="M91.856,154.3c-12.156-2.12-50.2-11.579-37.933-45.66,0,0,17.7-45.944,69.454-34.749,0,0,17.771,5.305,17.362,21.4,0,0-6.265,53.174-114.168,6.447,0,0-90.646-42.63,63.2-100.675" fill="none" stroke="#aeb5bb" stroke-linecap="round" stroke-width="0.732" stroke-dasharray="2.428 2.428" fill-rule="evenodd"/>
+          <path id="Stroke-5" d="M90.909.635,92.052.209" fill="none" stroke="#aeb5bb" stroke-linecap="round" stroke-width="0.732" fill-rule="evenodd"/>
+        </g>
+        <path id="Fill-8" d="M102.714,63.17H87.994a8,8,0,0,1,0-16h14.72a8,8,0,0,1,0,16" fill="#fefefe" fill-rule="evenodd"/>
+        <g id="Group-54" transform="translate(37.12 58.077)">
+          <line id="Fill-51" x2="30.414" transform="translate(0.064 0.477)" fill="#fefefe"/>
+        </g>
+        <g id="Group-70" transform="translate(37.12 88.477)">
+          <line id="Fill-67" x2="49.117" transform="translate(0.064 0.201)" fill="#fefefe"/>
+        </g>
+        <g id="Group-74" transform="translate(37.12 95.837)">
+          <line id="Fill-71" x2="53.793" transform="translate(0.064 0.373)" fill="#fefefe"/>
+        </g>
+        <path id="Fill-83" d="M122.351,109.322h0a4.988,4.988,0,0,1-7.056,0L100.416,94.443l7.056-7.056,14.879,14.879a4.99,4.99,0,0,1,0,7.056" fill="#fefefe" fill-rule="evenodd"/>
+        <path id="Fill-109" d="M84.189,27.956a1.6,1.6,0,1,1-1.6-1.6,1.6,1.6,0,0,1,1.6,1.6" fill="#dae1e8" fill-rule="evenodd"/>
+        <path id="Fill-111" d="M109.473,38.069a5.249,5.249,0,1,1-5.248-5.249,5.248,5.248,0,0,1,5.248,5.249" fill="#dae1e8" fill-rule="evenodd"/>
+        <path id="Fill-113" d="M17.415,115.108a1.856,1.856,0,1,1-1.856-1.856,1.856,1.856,0,0,1,1.856,1.856" fill="#dae1e8" fill-rule="evenodd"/>
+        <path id="Fill-115" d="M22.2,48.665h-1.29v-1.29h-.86v1.29h-1.29v.86h1.29v1.29h.86v-1.29H22.2Z" fill="#dae1e8" fill-rule="evenodd"/>
+        <path id="Fill-119" d="M113.415,117.221h-1.289v-1.29h-.861v1.29h-1.289v.86h1.289v1.29h.861v-1.29h1.289Z" fill="#dae1e8" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Group_12041" data-name="Group 12041" transform="translate(24.638 27.937)">
+      <path id="Path_17857" data-name="Path 17857" d="M41.62,2A39.617,39.617,0,1,0,81.237,41.617,39.66,39.66,0,0,0,41.62,2Z" transform="translate(0)" fill="#00253e"/>
+      <path id="Path_17858" data-name="Path 17858" d="M33.732,27.518l-9.36-9.355a61.864,61.864,0,0,1-6.215,6.206l9.364,9.36a4.391,4.391,0,0,0,6.21-6.21Z" transform="translate(54.8 54.827)" fill="#00253e"/>
+    </g>
+  </g>
+</svg>
