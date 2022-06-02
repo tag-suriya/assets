@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.2" height="15.2" viewBox="0 0 15.2 15.2">
+  <g id="plus" transform="translate(-0.4 -0.4)">
+    <g id="_01-Department-field-interaction" data-name="01-Department-field-interaction" transform="translate(-45 -927)">
+      <g id="Group-14" transform="translate(43 175)">
+        <g id="Group-19" transform="translate(0 72)">
+          <g id="Group-17">
+            <g id="Group-6" transform="translate(0 510)">
+              <g id="Group-22" transform="translate(2 107)">
+                <path id="Add-asset" d="M8,63.4A7.6,7.6,0,1,1,.4,71,7.6,7.6,0,0,1,8,63.4Zm0,1.2A6.4,6.4,0,1,0,14.4,71,6.4,6.4,0,0,0,8,64.6Zm0,2.9a.612.612,0,0,1,.613.613v2.275h2.275a.613.613,0,0,1,0,1.225H8.613v2.275a.613.613,0,1,1-1.225,0V71.613H5.113a.613.613,0,0,1,0-1.225H7.387V68.113A.612.612,0,0,1,8,67.5Z" fill="#00253e"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
