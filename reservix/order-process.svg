@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <defs>
+        <style>
+        .a {
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round
+        }
+        </style>
+    </defs>
+    <path class="a" d="M23.5 2.5h-2.558a.5.5 0 0 0-.5.439l-.332 2.684a1 1 0 0 1-.992.877H2A1.5 1.5 0 0 0 .569 8.447l1.562 5A1.5 1.5 0 0 0 3.563 14.5H18a1 1 0 0 1 0 2H4m15.501-8l-.442 3.978"></path>
+    <circle class="a" cx="6.001" cy="20" r="1.5"></circle>
+    <circle class="a" cx="17.001" cy="20" r="1.5"></circle>
+</svg>
