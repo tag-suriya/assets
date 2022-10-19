@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="123.43" height="123.43" viewBox="0 0 123.43 123.43">
+  <defs>
+    <filter id="Path_155695" x="0" y="0" width="123.43" height="123.43" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_95168" data-name="Group 95168" transform="translate(12.457 12.934)">
+    <g transform="matrix(1, 0, 0, 1, -12.46, -12.93)" filter="url(#Path_155695)">
+      <path id="Path_155695-2" data-name="Path 155695" d="M14.767,0h48.9A14.767,14.767,0,0,1,78.43,14.767v48.9A14.767,14.767,0,0,1,63.663,78.43h-48.9A14.767,14.767,0,0,1,0,63.663v-48.9A14.767,14.767,0,0,1,14.767,0Z" transform="translate(12.5 12.5)" fill="#fff"/>
+    </g>
+    <g id="Bluekern-Symbol-Coloured" transform="translate(18.972 8.082)">
+      <path id="Path_104228" data-name="Path 104228" d="M705.63,600.3l10.183-6.481v22.941l-10.183,6.481Z" transform="translate(-674.671 -567.767)" fill="#0a053b"/>
+      <path id="Path_104229" data-name="Path 104229" d="M0,6.481,10.183,0V45.748L0,52.229Z" transform="translate(0)" fill="#1f19c3"/>
+      <path id="Path_104230" data-name="Path 104230" d="M242.178,372.25l-10.188,6.474,20.776,9.728,10.187-6.474Z" transform="translate(-221.812 -355.918)" fill="#1c5afb"/>
+      <path id="Path_104231" data-name="Path 104231" d="M10.187,1042.9,0,1049.374l20.776,9.728,10.187-6.475Z" transform="translate(0 -997.145)" fill="#1c5afb"/>
+    </g>
+  </g>
+</svg>
