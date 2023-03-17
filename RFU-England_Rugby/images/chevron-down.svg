@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>atoms/icons/a-icon-chevron-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.8198752,5.56618506 L6.43391262,0.179675382 C6.19411096,-0.0598917941 5.80572293,-0.0598917941 5.56619483,0.179675382 L0.179646071,5.56618506 C-0.0598820238,5.8058304 -0.0598820238,6.19417935 0.179646071,6.43382469 L0.613485423,6.86766404 C0.853013518,7.1074657 1.24175327,7.1074657 1.48143769,6.86766404 L5.99999511,2.34887214 L10.5187088,6.86766404 C10.7581979,7.1074657 11.1467422,7.1074657 11.3863485,6.86766404 L11.8201878,6.43382469 C12.0599895,6.19390578 12.0599895,5.8058304 11.8198752,5.56618506 Z" id="path-1"></path>
+    </defs>
+    <g id="atoms/icons/a-icon-chevron-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="atoms/colours/a-colour-primary" transform="translate(2.000000, 5.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#232323" transform="translate(6.000000, 3.523758) scale(1, -1) translate(-6.000000, -3.523758) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
