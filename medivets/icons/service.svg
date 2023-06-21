@@ -1,0 +1,64 @@
+<svg class="custom-block__icon" xmlns="http://www.w3.org/2000/svg" width="98" height="98" viewBox="0 0 98 98" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path id="c" d="M435,576 C435,576 571.772295,537.153456 825.5,547.5 C1079.22771,557.846544 1244,571.5 1606,607.5 C1968,643.5 2335,576 2335,576 L2335,1170 L435,1170 L435,576 Z" />
+        <filter id="b" width="106.3%" height="119.2%" x="-3.2%" y="-14.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="-30" in="SourceAlpha" result="shadowOffsetOuter1" />
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+            <feColorMatrix values="0 0 0 0 0.239215686 0 0 0 0 0.22745098 0 0 0 0 0.37254902 0 0 0 0.2 0" in="shadowBlurOuter1" />
+        </filter>
+        <rect id="f" width="290" height="290" rx="8" />
+        <filter id="e" width="143.1%" height="143.1%" x="-21.6%" y="-14.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="20" in="SourceAlpha" result="shadowOffsetOuter1" />
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+            <feColorMatrix values="0 0 0 0 0.243137255 0 0 0 0 0.235294118 0 0 0 0 0.384313725 0 0 0 0.1 0" in="shadowBlurOuter1" />
+        </filter>
+        <linearGradient id="g" x1="0%" x2="97.178%" y1="0%" y2="100%">
+            <stop stop-color="#504D7F" offset="0%" />
+            <stop stop-color="#3C3A5E" offset="100%" />
+        </linearGradient>
+        <path id="h" d="M13,46 L38,46 L38,49 C38,50.6568542 36.6558914,52 35.0092478,52 L15.9907522,52 C14.3390054,52 13,50.6534829 13,49 L13,46 Z" />
+        <path id="i" d="M16,50 L35,50 L35,53 C35,54.6568542 33.6639569,56 31.9998779,56 L19.0001221,56 C17.3432004,56 16,54.6534829 16,53 L16,50 Z" />
+        <path id="j" d="M19,54 L32,54 L32,57 C32,58.6568542 30.6577357,60 29.0012144,60 L21.9987856,60 C20.3426021,60 19,58.6534829 19,57 L19,54 Z" />
+        <path id="k" d="M22,58 L29,58 L29,61 C29,62.6568542 27.6503296,64 25.9907455,64 L25.0092545,64 C23.3472891,64 22,62.6534829 22,61 L22,58 Z" />
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-751 -540)">
+        <g transform="translate(655 500)">
+            <use filter="url(#e)" xlink:href="#f" />
+            <use fill="#FFFFFF" xlink:href="#f" />
+            <g transform="translate(95 40)">
+                <g transform="translate(25 17)">
+                    <path class="icon-color-stroke-secondary" stroke="#FFA15A" stroke-width="2" d="M21.4738708,47.4903403 L19,25 C19,25 20.368805,26.26509 21.5398056,26.3574532 C22.7108062,26.4498163 25.1861474,25 25.1861474,25 C25.1861474,25 27.0400801,27.8072695 28.2770155,27.8072695 C29.5139509,27.8072695 31.4353145,25 31.4353145,25 L28.9614437,47.5270238 L21.4738708,47.4903403 Z" />
+                    <path class="icon-color-stroke-secondary" stroke="#FFA15A" d="M20,31 C20,31 21.1007401,32.1527724 22.0424136,32.2369354 C22.9840871,32.3210984 24.974661,31 24.974661,31 C24.974661,31 26.4655221,33.5580338 27.4602179,33.5580338 C28.4549136,33.5580338 30.5,31 30.5,31" stroke-linecap="round" />
+                    <circle class="icon-color-stroke-primary" cx="25" cy="25" r="24" stroke="url(#g)" stroke-width="2" />
+                    <use xlink:href="#h" />
+                    <path class="icon-color-stroke-primary" fill="#fff" stroke="url(#g)" stroke-width="2" d="M14,47 L14,49 C14,50.1032255 14.8933167,51 15.9907522,51 L35.0092478,51 C36.1049413,51 37,50.1032306 37,49 L37,47 L14,47 Z" />
+                    <use xlink:href="#i" />
+                    <path class="icon-color-stroke-primary" stroke="url(#g)" stroke-width="2" d="M17,51 L17,53 C17,54.102527 17.8968133,55 19.0001221,55 L31.9998779,55 C33.1088398,55 34,54.1074052 34,53 L34,51 L17,51 Z" />
+                    <g>
+                        <use xlink:href="#j" />
+                        <path class="icon-color-stroke-primary" stroke="url(#g)" stroke-width="2" d="M20,55 L20,57 C20,58.1026267 20.8963143,59 21.9987856,59 L29.0012144,59 C30.1052262,59 31,58.1047942 31,57 L31,55 L20,55 Z" />
+                    </g>
+                    <g>
+                        <use xlink:href="#k" />
+                        <path class="icon-color-stroke-primary" stroke="url(#g)" stroke-width="2" d="M23,59 L23,61 C23,62.1018461 23.9002258,63 25.0092545,63 L25.9907455,63 C27.0996775,63 28,62.1029366 28,61 L28,59 L23,59 Z" />
+                    </g>
+                </g>
+                <g fill="url(#g)" transform="translate(1)">
+                    <rect class="icon-color-fill-primary" width="2" height="14" x="48" rx="1" />
+                    <g transform="translate(0 48)">
+                        <rect class="icon-color-fill-primary" width="14" height="2" x="84" rx="1" />
+                        <rect class="icon-color-fill-primary" width="14" height="2" rx="1" />
+                    </g>
+                    <g transform="rotate(45 -8.941 25)">
+                        <rect class="icon-color-fill-primary" width="10" height="2" x="88.243" rx="1" />
+                        <rect class="icon-color-fill-primary" width="10" height="2" rx="1" />
+                    </g>
+                    <g transform="rotate(-45 106.941 25)">
+                        <rect class="icon-color-fill-primary" width="10" height="2" x="88.243" rx="1" />
+                        <rect class="icon-color-fill-primary" width="10" height="2" rx="1" />
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
