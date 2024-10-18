@@ -1,97 +1,33 @@
 Ticket Form,Department/Application,Request Category,Request Sub Category,Description
-hola,IT,Access Request,Software Access,"Request for access to company software.
-
-Access needed to enhance workflow and improve project efficiency."
-hola,IT,Access Request,User Account Creation,"Request to create a new user account.
-
-Necessary for new team members and ensuring access to required resources."
-hola,IT,Incident Report,System Outage,"Report of a system outage affecting multiple users.
-
-Impact includes disruption of workflows and decreased productivity across teams."
-hola,IT,Incident Report,Bug Report,"Report a software bug encountered by users.
-
-The bug disrupts functionality, leading to errors and impacting user experience."
-hola,HR,Employee Inquiry,Leave Request,"Inquiry about the process for requesting leave.
-
-Seeking clarification on required documentation and approval timelines."
-hola,HR,Employee Inquiry,Policy Clarification,"Request for clarification on HR policies.
-
-Specifically seeking information on employee benefits and performance evaluation procedures."
-hola,HR,Employee Onboarding,New Hire Process,"Request for information on onboarding a new employee.
-
-Looking for details on the orientation process and required training materials."
-hola,HR,Employee Onboarding,Training Schedule,"Request for training schedule for new hires.
-
-Seeking information on topics covered and duration of each training session."
-hola,Finance,Expense Report,Reimbursement,"Request for reimbursement of business expenses.
-
-Details include receipts for travel, meals, and other incurred costs."
-hola,Finance,Expense Report,Invoice Submission,"Submit an invoice for payment processing.
-
-Ensure all relevant details, such as amounts and services provided, are included."
-hola,Finance,Budget Inquiry,Annual Budget,"Inquiry about the annual budget allocation.
-
-Seeking details on departmental allocations and any changes from the previous year."
-hola,Finance,Budget Inquiry,Departmental Budget,"Request for departmental budget details.
-
-Looking for a breakdown of expenses and planned allocations for the upcoming fiscal year."
-hola,Facilities,Maintenance Request,Repair,"Request for repair of office equipment.
-
-Specifically referring to [type of equipment] that is malfunctioning and affecting productivity."
-hola,Facilities,Maintenance Request,Facility Upgrade,"Request for upgrading office facilities.
-
-Proposed improvements include [specific upgrades] to enhance productivity and employee comfort."
-hola,Facilities,Cleaning Request,Office Cleaning,"Request for office cleaning services.
-
-Services needed include routine cleaning and sanitation to maintain a healthy work environment."
-hola,Facilities,Cleaning Request,Window Cleaning,"Request for window cleaning service.
-
-Service needed for all office windows to improve visibility and overall appearance."
-Warranty,IT DI,Access Request DI,Software Access DI,"Request for access to company software.
-
-Access needed to enhance workflow and improve project efficiency."
-Warranty,IT DI,Access Request DI,User Account Creation DI,"Request to create a new user account.
-
-Necessary for new team members and ensuring access to required resources."
-Warranty,IT DI,Incident Report DI,System Outage DI,"Report of a system outage affecting multiple users.
-
-Impact includes disruption of workflows and decreased productivity across teams."
-Warranty,IT DI,Incident Report DI,Bug Report DI,"Report a software bug encountered by users.
-
-The bug disrupts functionality, leading to errors and impacting user experience."
-Warranty,HR DI,Employee Inquiry DI,Leave Request DI,"Inquiry about the process for requesting leave.
-
-Seeking clarification on required documentation and approval timelines."
-Warranty,HR DI,Employee Inquiry DI,Policy Clarification DI,"Request for clarification on HR policies.
-
-Specifically seeking information on employee benefits and performance evaluation procedures."
-Warranty,HR DI,Employee Onboarding DI,New Hire Process DI,"Request for information on onboarding a new employee.
-
-Looking for details on the orientation process and required training materials."
-Warranty,HR DI,Employee Onboarding DI,Training Schedule DI,"Request for training schedule for new hires.
-
-Seeking information on topics covered and duration of each training session."
-Warranty,Finance DI,Expense Report DI,Reimbursement DI,"Request for reimbursement of business expenses.
-
-Details include receipts for travel, meals, and other incurred costs."
-Warranty,Finance DI,Expense Report DI,Invoice Submission DI,"Submit an invoice for payment processing.
-
-Ensure all relevant details, such as amounts and services provided, are included."
-Warranty,Finance DI,Budget Inquiry DI,Annual Budget DI,"Inquiry about the annual budget allocation.
-
-Seeking details on departmental allocations and any changes from the previous year."
-Warranty,Finance DI,Budget Inquiry DI,Departmental Budget DI,"Request for departmental budget details.
-
-Looking for a breakdown of expenses and planned allocations for the upcoming fiscal year."
-Warranty,Facilities DI,Maintenance Request DI,Repair DI,"Request for repair of office equipment.
-
-Specifically referring to [type of equipment] that is malfunctioning and affecting productivity."
-Warranty,Facilities DI,Maintenance Request DI,Facility Upgrade DI,"Request for upgrading office facilities.
-
-Proposed improvements include [specific upgrades] to enhance productivity and employee comfort."
-Warranty,Facilities DI,Cleaning Request DI,Office Cleaning DI,"Request for office cleaning services.
-
-Services needed include routine cleaning and sanitation to maintain a healthy work environment."
-Warranty,Facilities DI,Cleaning Request DI,Window Cleaning DI,"Request for window cleaning service.
-
-Service needed for all office windows to improve visibility and overall appearance."
+hola,IT,Access Request,Software Access,Request for access to company software. Access needed to enhance workflow and improve project efficiency.
+hola,IT,Access Request,User Account Creation,Request to create a new user account. Necessary for new team members and ensuring access to required resources.
+hola,IT,Incident Report,System Outage,Report of a system outage affecting multiple users. Impact includes disruption of workflows and decreased productivity across teams.
+hola,IT,Incident Report,Bug Report,"Report a software bug encountered by users. The bug disrupts functionality, leading to errors and impacting user experience."
+hola,HR,Employee Inquiry,Leave Request,Inquiry about the process for requesting leave. Seeking clarification on required documentation and approval timelines.
+hola,HR,Employee Inquiry,Policy Clarification,Request for clarification on HR policies. Specifically seeking information on employee benefits and performance evaluation procedures.
+hola,HR,Employee Onboarding,New Hire Process,Request for information on onboarding a new employee. Looking for details on the orientation process and required training materials.
+hola,HR,Employee Onboarding,Training Schedule,Request for training schedule for new hires. Seeking information on topics covered and duration of each training session.
+hola,Finance,Expense Report,Reimbursement,"Request for reimbursement of business expenses. Details include receipts for travel, meals, and other incurred costs."
+hola,Finance,Expense Report,Invoice Submission,"Submit an invoice for payment processing. Ensure all relevant details, such as amounts and services provided, are included."
+hola,Finance,Budget Inquiry,Annual Budget,Inquiry about the annual budget allocation. Seeking details on departmental allocations and any changes from the previous year.
+hola,Finance,Budget Inquiry,Departmental Budget,Request for departmental budget details. Looking for a breakdown of expenses and planned allocations for the upcoming fiscal year.
+hola,Facilities,Maintenance Request,Repair,Request for repair of office equipment. Specifically referring to [type of equipment] that is malfunctioning and affecting productivity.
+hola,Facilities,Maintenance Request,Facility Upgrade,Request for upgrading office facilities. Proposed improvements include [specific upgrades] to enhance productivity and employee comfort.
+hola,Facilities,Cleaning Request,Office Cleaning,Request for office cleaning services. Services needed include routine cleaning and sanitation to maintain a healthy work environment.
+hola,Facilities,Cleaning Request,Window Cleaning,Request for window cleaning service. Service needed for all office windows to improve visibility and overall appearance.
+Warranty,IT DI,Access Request DI,Software Access DI,Request for access to company software. Access needed to enhance workflow and improve project efficiency.
+Warranty,IT DI,Access Request DI,User Account Creation DI,Request to create a new user account. Necessary for new team members and ensuring access to required resources.
+Warranty,IT DI,Incident Report DI,System Outage DI,Report of a system outage affecting multiple users. Impact includes disruption of workflows and decreased productivity across teams.
+Warranty,IT DI,Incident Report DI,Bug Report DI,"Report a software bug encountered by users. The bug disrupts functionality, leading to errors and impacting user experience."
+Warranty,HR DI,Employee Inquiry DI,Leave Request DI,Inquiry about the process for requesting leave. Seeking clarification on required documentation and approval timelines.
+Warranty,HR DI,Employee Inquiry DI,Policy Clarification DI,Request for clarification on HR policies. Specifically seeking information on employee benefits and performance evaluation procedures.
+Warranty,HR DI,Employee Onboarding DI,New Hire Process DI,Request for information on onboarding a new employee. Looking for details on the orientation process and required training materials.
+Warranty,HR DI,Employee Onboarding DI,Training Schedule DI,Request for training schedule for new hires. Seeking information on topics covered and duration of each training session.
+Warranty,Finance DI,Expense Report DI,Reimbursement DI,"Request for reimbursement of business expenses. Details include receipts for travel, meals, and other incurred costs."
+Warranty,Finance DI,Expense Report DI,Invoice Submission DI,"Submit an invoice for payment processing. Ensure all relevant details, such as amounts and services provided, are included."
+Warranty,Finance DI,Budget Inquiry DI,Annual Budget DI,Inquiry about the annual budget allocation. Seeking details on departmental allocations and any changes from the previous year.
+Warranty,Finance DI,Budget Inquiry DI,Departmental Budget DI,Request for departmental budget details. Looking for a breakdown of expenses and planned allocations for the upcoming fiscal year.
+Warranty,Facilities DI,Maintenance Request DI,Repair DI,Request for repair of office equipment. Specifically referring to [type of equipment] that is malfunctioning and affecting productivity.
+Warranty,Facilities DI,Maintenance Request DI,Facility Upgrade DI,Request for upgrading office facilities. Proposed improvements include [specific upgrades] to enhance productivity and employee comfort.
+Warranty,Facilities DI,Cleaning Request DI,Office Cleaning DI,Request for office cleaning services. Services needed include routine cleaning and sanitation to maintain a healthy work environment.
+Warranty,Facilities DI,Cleaning Request DI,Window Cleaning DI,Request for window cleaning service. Service needed for all office windows to improve visibility and overall appearance.
