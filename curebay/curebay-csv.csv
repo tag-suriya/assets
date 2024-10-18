@@ -1,17 +1,17 @@
-Department/Application,Request Category,Request Sub Category,Description
-IT,Access Request,Software Access,Request for access to company software.
-IT,Access Request,User Account Creation,Request to create a new user account.
-IT,Incident Report,System Outage,Report of a system outage affecting multiple users.
-IT,Incident Report,Bug Report,Report a software bug encountered by users.
-HR,Employee Inquiry,Leave Request,Inquiry about the process for requesting leave.
-HR,Employee Inquiry,Policy Clarification,Request for clarification on HR policies.
-HR,Employee Onboarding,New Hire Process,Request for information on onboarding a new employee.
-HR,Employee Onboarding,Training Schedule,Request for training schedule for new hires.
-Finance,Expense Report,Reimbursement,Request for reimbursement of business expenses.
-Finance,Expense Report,Invoice Submission,Submit an invoice for payment processing.
-Finance,Budget Inquiry,Annual Budget,Inquiry about the annual budget allocation.
-Finance,Budget Inquiry,Departmental Budget,Request for departmental budget details.
-Facilities,Maintenance Request,Repair,Request for repair of office equipment.
-Facilities,Maintenance Request,Facility Upgrade,Request for upgrading office facilities.
-Facilities,Cleaning Request,Office Cleaning,Request for office cleaning services.
-Facilities,Cleaning Request,Window Cleaning,Request for window cleaning service.
+Ticket Form,Department/Application,Request Category,Request Sub Category,Description
+hola,IT,Access Request,Software Access,Request for access to company software.
+hola,IT,Access Request,User Account Creation,Request to create a new user account.
+hola,IT,Incident Report,System Outage,Report of a system outage affecting multiple users.
+hola,IT,Incident Report,Bug Report,Report a software bug encountered by users.
+hola,HR,Employee Inquiry,Leave Request,Inquiry about the process for requesting leave.
+hola,HR,Employee Inquiry,Policy Clarification,Request for clarification on HR policies.
+hola,HR,Employee Onboarding,New Hire Process,Request for information on onboarding a new employee.
+hola,HR,Employee Onboarding,Training Schedule,Request for training schedule for new hires.
+hola,Finance,Expense Report,Reimbursement,Request for reimbursement of business expenses.
+hola,Finance,Expense Report,Invoice Submission,Submit an invoice for payment processing.
+hola,Finance,Budget Inquiry,Annual Budget,Inquiry about the annual budget allocation.
+hola,Finance,Budget Inquiry,Departmental Budget,Request for departmental budget details.
+hola,Facilities,Maintenance Request,Repair,Request for repair of office equipment.
+hola,Facilities,Maintenance Request,Facility Upgrade,Request for upgrading office facilities.
+hola,Facilities,Cleaning Request,Office Cleaning,Request for office cleaning services.
+hola,Facilities,Cleaning Request,Window Cleaning,Request for window cleaning service.
