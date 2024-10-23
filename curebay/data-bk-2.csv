@@ -1,0 +1,1146 @@
+Service / Report,Department,Category,Sub-Category,Description Box Template Format
+Request,CHE,Hospicash Request,Claim Request Submission,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name*
+Patient Mobile Number*
+Patient ID*
+Patient Aadhaar/Pan Card Number
+Attachment of documents -
+1. Duly filled signed Claim form with signature of member (Please note there are different claim forms for CARE & Magma) Care is Membership 3.0 and Magma is Membership 2.0
+2. Cancelled Cheque in the name of proposer/member – Member name should be printed on Cheque, Alternatively /bank passbook first page can be shared
+3. Detailed Discharge Summary - Date & Time of admission and discharge, final diagnosis, past histor, treatment given etc should ideally be mentioned, If the same is not given in the discharge summary please arrange for the same from the clinic/hospital.
+4. KYC details - Aadhar/PAN card
+5. Hospicash policy document and policy number.
+6. Treating doctor certificate for detailed case history with progression, duration and past history of the present ailment ( If required, this will be asked by Bima Team)
+7. Final Hospital Bill (If required, this will be asked by Bima Team)"
+Request,CHE,Pharmacy Related Request,Bill Deletion Pharmacy Order (Partial),"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Deletion Type Partial* (Yes/No)
+Service: Medicines (Yes/No)
+Patient Name*
+Patient Mobile Number*
+Patient ID*
+Name of the Product to be removed
+Date of Transaction
+Transaction Id
+Total Amount
+Discount Applicable
+Net Amount Received
+Mode of Payment
+Deletion Reason*
+Transaction Screenshot"
+Request,CHE,Pharmacy Related Request,Bill Deletion Pharmacy Order (Full),"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Deletion Type Full* (Yes/No)
+Service: Medicines (Yes/No)
+Patient Name*
+Patient Mobile Number*
+Patient ID*
+Name of the Product to be removed
+Date of Transaction
+Transaction Id
+Total Amount
+Discount Applicable
+Net Amount Received
+Mode of Payment
+Deletion Reason*
+Transaction Screenshot"
+Request,CHE,Doctor Related Request,Bill deletion - Doctor Consultation,"Clinic Name
+Your Name
+Official Email Address
+Phone Number
+Clinic Phone Number
+COM
+Service: Consultation (Yes/No) -
+Patient Name
+Patient Mobile Number
+Patient ID
+Date of Booking
+Date of Consultation Scheduled
+Transaction Id
+Total Amount
+Discount Applicable
+Net Amount Received
+Mode of Payment
+Deletion Reason
+Attachment of Transaction (Yes/No)"
+Request,CHE,Lab Related Request,Bill Deletion - Lab package (Full),"Clinic Name
+Your Name
+Official Email Address
+Phone Number
+Clinic Phone Number
+COM
+Deletion Type Full* (Yes/No)
+Service: Lab Package (Yes/No) -
+Patient Name
+Patient Mobile Number
+Patient ID
+Date of Booking
+Date of Consultation Scheduled
+Transaction Id
+Total Amount
+Discount Applicable
+Net Amount Received
+Mode of Payment
+Deletion Reason
+Attachment of Transaction (Yes/No)"
+Request,CHE,Lab Related Request,Bill Deletion - Lab package (Partial),"Clinic Name
+Your Name
+Official Email Address
+Phone Number
+Clinic Phone Number
+COM
+Deletion Type Partial* (Yes/No)
+Service: Lab Package (Yes/No) -
+Patient Name
+Patient Mobile Number
+Patient ID
+Date of Booking
+Date of Consultation Scheduled
+Transaction Id
+Total Amount
+Discount Applicable
+Net Amount Received
+Mode of Payment
+Deletion Reason
+Attachment of Transaction (Yes/No)"
+Report an issue,Infrastructure ,Infrastructure Related Issue,Aquaguard Related issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Start Date of Issue:*
+Brand Name:*
+Issue Description:*
+Complete Clinic Address with PIN CODE:
+Googe Map Location Link for the Clinic Address:
+Video of Issue Attached?* (Yes/No)"
+Report an issue,CHE,Concierge Related Issue,Concierge Billing Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+SM Name
+SM Number
+SM Email
+Attachment of Bill Not Showing Attached (Yes/No)"
+Request,CHE,Concierge Request,Pathology Test for Patient (Concierge Service),"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Preferred Date
+Preferred Time
+Patient Name
+Patient Mobile Number
+Patient ID
+Test Name
+Payment Mode
+Test Price
+Discount %
+Discount Amount (Rs) 
+Net Payble Amount (Rs)"
+Report an issue,CHE,Doctor Related Issue,Doctor slot not showing,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Doctor Name
+Patient Name
+Patient ID
+Patient Phone Number
+Photo of Doctor Slot Not Showing Attached (Yes/No)"
+Request,CHE,Concierge Request,Radiology Test for Patient (Concierge Service),"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Preferred Date
+Preferred Time
+Patient Name
+Patient Mobile Number
+Patient ID
+Test Name
+Payment Mode
+Test Price
+Discount Allowed 
+Net Payble Amount
+Billing Status
+Description"
+Request,CHE,Doctor Related Request,Inventory Doctor Booking,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name*
+Patient Mobile Number*
+Patient ID*
+Doctor Name*
+Date*
+Time*
+Speciality*
+Patient Chief Complain*
+Description"
+Request,CHE,Doctor Related Request,Doctor Slot Creation - Clinic,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name*
+Patient Mobile Number*
+Patient ID*
+Doctor Name*
+Date*
+Time*
+Speciality*
+Patient Chief Complain*
+Slot Creation Date
+Slot Creation Time
+Description"
+Report an issue,CHE,Doctor Related Issue,Join call button not showing,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name*
+Patient Mobile Number*
+Patient ID*
+Doctor Name*
+Consultation Scheduled Date*
+Consultation Scheduled Time*
+Consultation Type (Video, Quick, Inperson)
+Description
+Video of Error Attached (Yes/No)"
+Report an issue,CHE,Doctor Related Issue,Join pre-consultation button not showing,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name*
+Patient Mobile Number*
+Patient ID*
+Doctor Name*
+Consultation Date*
+Consultation Time*
+Consultation Type:- (Video, Quick, Inperson)
+Description
+Video of Error Attached (Yes/No)"
+Report an issue,CHE,Doctor Related Issue,Consultation fee showing for membership patient (only for empanelled doctor),"
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Doctor Name
+Patient Name
+Patient ID
+Patient Phone Number
+Membership Card (Wellness, Primce, DCP)
+Fee Amount Showing
+Video of Fee Amount Showing Attahced (Yes/No)"
+Report an issue,CHE,Pharmacy Related Issue,Mismatch in medicine price,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Id
+Patient Phone Number
+Medicine Name
+Original Price
+Price Shared
+Difference
+Description
+Photo of Price Mismatch Attached (Yes/No)"
+Report an issue,CHE,Pharmacy Related Issue,Delay in medicine order,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Id
+Patient Phone Number
+Payment Mode (Cash, Digital)
+Date of Order
+Transaction ID
+Description
+Photo of Medicne Order Detail Attached (Yes/No)"
+Report an issue,CHE,Pharmacy Related Issue,Medicine not reflecting in cart,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Number
+Patient Id
+Medicine Name and Quantity
+Photo of Medicine Ordered attached (Yes/No)
+Description
+Photo of Cart Attached (Yes/No)"
+Report an issue,CHE,Pharmacy Related Issue,Money deducted but order ID not reflecting,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Number
+Patient ID
+Payment Mode (Cash/Digital)
+UPI ID
+Transaction ID
+Transaction Time
+Transaction Date:
+List of Medicines:
+Discounted Amount:
+Net Amount:
+Description
+Attachment of Money Deducted (Yes/No)"
+Report an issue,CHE,Lab Related Issue,Delay in report (Pathology),"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Phone Number
+Patient ID
+TRF of Patient
+Description
+Bill of Lab Order Attched (Yes/No)"
+Report an issue,CHE,Lab Related Issue,Incorrect lab report (Pathology),"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Phone Number
+Patient ID
+TRF of Patient
+Description (why is it incorrect?)
+Bill of Lab Order Attched (Yes/No)"
+Report an issue,CHE,Lab Related Issue,Incorrect lab report (Radiology),"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Phone Number
+Patient ID
+TRF of Patient
+Description (why is it incorrect?)
+Bill of Lab Order Attched (Yes/No)"""
+Report an issue,CHE,Lab Related Issue,Lab test not showing on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Lab Partner Name
+Lab Test Name
+Description
+Photo of Test Not Reflecting Attached (Yes/No)"
+Report an issue,CHE,Lab Related Issue,Lab test not reflecting in Cart,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Phone Number
+Patient ID
+Description
+Photo of Cart Attached (Yes/No)"
+Report an issue,CHE,Lab Related Issue,Money deducted but order ID not reflecting,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Number
+Patient ID
+Payment Mode (Cash/Digital)
+UPI ID
+Transaction ID
+Transaction Time
+Transaction Date:
+List of Medicines:
+Discounted Amount:
+Net Amount:
+Description
+Attachment of Money Deducted (Yes/No)"
+Request,CHE,New Top-up Request,New Top-up Request,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM
+Date Of Transaction
+Transaction Id
+Photo of Sucessful Transaction Attached (Yes/No)
+Description"
+Report an issue,CHE,Package Related Issue,Unable to avail Package on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Number
+Patient ID
+Package Name
+Description
+Screenshot of Issue Attached (Yes/No)"
+Report an issue,CHE,Membership Card Related Issue,Unable to issue Membership Card to patient on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Number
+Patient ID
+Payment Mode (Cash/ Digital)
+Transaction ID
+Transaction Date
+Transaction Time"
+Report an issue,CHE,Membership Card Related Issue,Unable to avail Membership benefits on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Number
+Patient ID
+Service Name
+Payment Mode (Cash/ Digital)
+Issue Description
+Screenshot of Issue Attached (Yes/No)"
+Request,CHE,Doctor Related Request,Doctor Slot Creation - Camp,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Doctor Name
+Slot Date
+Slot Time
+Description"
+Report an issue,Consumables/ Device,Consumables/ Device Related Issue,Device Not Working,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Start Date of Issue:*
+Device Name:*
+Issue Description:*
+Video of Issue Attached?* (Yes/No)
+Description*"
+Report an issue,Engage (Clinical Staff),Engage App Issue of Clinical Staff,Transaction Not Showing in Earnings (Clinic Staff),"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Transaction Amount
+Earning Amount
+Payment Mode (Cash/ Digital)
+Transaction ID
+Transaction Date
+Transaction Time
+Description
+Screenshot of Transaction Attached (Yes/No)"
+Report an issue,Engage (Clinical Staff),Engage App Issue of Clinical Staff,Unable to Login Engage App,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Login Details
+Issue Description
+Screenshot /Video of Error Attached (Yes/No)"
+Report an issue,Engage (Clinical Staff),Engage App Issue of Clinical Staff,Patient Details Not Showing on Enagage App,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Number
+Description
+Screenshot /Video of Error Attached (Yes/No)"
+Report an issue,Engage (Clinical Staff),Engage App Issue of Clinical Staff,Mismatch Incentive Payment of Clinical Staff,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Payment Reflecting on Engage
+Actual Payment Amount
+Difference Amount
+Error Screenshot Attached (Yes/No)"
+Report an issue,Engage (Clinical Staff),Engage App Issue of Clinical Staff,Lab Order Not Reflecting  on Enagage App,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient ID
+Patient Mobile Number
+UPI ID
+Transaction ID
+Transaction Date
+Transaction Time
+List of Lab Test
+Discounted Amount:
+Net Amount:
+Screenshot of error Attached (Yes/No)"
+Report an issue,Engage (Clinical Staff),Engage App Issue of Clinical Staff,Membership Card Not Reflecting on Engage App,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient ID
+Patient Mobile Number
+UPI ID
+Transaction ID
+Transaction Date
+Transaction Time
+Name of Membership Card
+Net Amount:
+Screenshot of error Attached (Yes/No)"
+Report an issue,Engage (Clinical Staff),Engage App Issue of Clinical Staff,Medicine Order Not Reflecting on Engage App,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient ID
+Patient Mobile Number
+UPI ID
+Transaction ID
+Transaction Date
+Transaction Time
+List of Medicine Name and Quantity
+Discounted Amount:
+Net Amount:
+Screenshot of error Attached (Yes/No)"
+Report an issue,Engage (Swastya Mitra),Swastya Mitra Related,Swastya Mitra Payout Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Issue Description:
+Swastya Name
+Swastya Mobile Number
+Error Screenshot Attached (Yes/No)"
+Report an issue,Engage (Swastya Mitra),Swastya Mitra Related,Mismatch Payment of Swastya Mitra,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Swastya Name
+Swastya Mobile Number
+Payment Reflecting on Engage
+Actual Payment Amount
+Difference Amount
+Error Screenshot Attached (Yes/No)"
+Report an issue,Engage (Swastya Mitra),Swastya Mitra Related,Transaction Not Showing in Earnings (Swastya Mitra),"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Swastya Name
+Swastya Mobile Number
+Transaction Amount
+Earning Amount
+Payment Mode (Cash/ Digital)
+Transaction ID
+Transaction Date
+Transaction Time
+Screenshot of Transaction Attached (Yes/No)"
+Report an issue,Engage (Swastya Mitra),Swastya Mitra Related,Unable to Login on Engage App,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+SM ID
+SM Name
+Screenshot /Video of Error Attached (Yes/No)"
+Report an issue,Engage (Swastya Mitra),Swastya Mitra Related,Engage App Not Working,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+SM ID
+SM Name
+Screenshot /Video of Error Attached (Yes/No)"
+Report an issue,Engage (Swastya Mitra),Swastya Mitra Related,Lab Order Not Reflecting  on Enagage App,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient ID
+Patient Mobile Number
+UPI ID
+Transaction ID
+Transaction Date
+Transaction Time
+Swasthya Mitra Name:
+Swasthya Mitra Mobile:
+List of Lab Test
+Discounted Amount:
+Net Amount:
+Screenshot of error Attached (Yes/No)"
+Report an issue,Engage (Swastya Mitra),Swastya Mitra Related,Membership Card Not Reflecting on Engage App,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient ID
+Patient Mobile Number
+UPI ID
+Transaction ID
+Transaction Date
+Transaction Time
+Swasthya Mitra Name:
+Swasthya Mitra Mobile:
+Name of Membership Card
+Net Amount:
+Screenshot of error Attached (Yes/No)"
+Report an issue,Engage (Swastya Mitra),Swastya Mitra Related,Medicine Order Not Reflecting on Engage App,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient ID
+Patient Mobile Number
+UPI ID
+Transaction ID
+Transaction Date
+Transaction Time
+Swasthya Mitra Name:
+Swasthya Mitra Mobile:
+List of Medicine Name and Quantity
+Discounted Amount:
+Net Amount:
+Screenshot of error Attached (Yes/No)"
+Report an issue,Engage (Swastya Mitra),Swastya Mitra Related,Patient Details Not Reflecting on Enagage App,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient ID
+Patient Mobile Number
+Swasthya Mitra Name:
+Swasthya Mitra Mobile:
+Description
+Screenshot of error Attached (Yes/No)"
+Report an issue,Infrastructure ,Infrastructure Related Issue,Clinic Furniture Related Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Start Date of Issue:*
+Furniture Name:*
+Issue Description:*
+Complete Clinic Address with PIN CODE:
+Video of Issue Attached?* (Yes/No)
+Description*"
+Report an issue,Infrastructure ,Infrastructure Related Issue,Hardware Devices Related Issues,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Start Date of Issue:*
+Name of Harware Device: (Desktop, CPU, Speaker, Mouse, Webcam etc)*
+Reception Device or Consultation Room Device*
+Issue Description:*
+Complete Clinic Address with PIN CODE:
+Video of Issue Attached?* (Yes/No)
+Description*"
+Report an issue,CHE,Membership Card Related Issue,Membership card not reflecting on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Number:*
+Patient Name:*
+Patient ID:*
+Membership Type: (Prime, Wellness, DCP)*
+Video/Photo of Issue Attached?* (Yes/No)
+Description*"
+Report an issue,Infrastructure ,Infrastructure Related Issue,Wifi Related Issues,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Start Date of Issue:*
+Wifi Provider: (Airtel, BSNL, Jio, Vodafone)*
+Issue Description: (Slow internet, No Internet)*
+I Have Restarted the Device* (Yes/No)
+Complete Clinic Address with PIN CODE:
+Video of Issue Attached?* (Yes/No)"
+Report an issue,Infrastructure ,Infrastructure Related Issue,AC Related Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Start Date of Issue:*
+AC Model Name:*
+Issue Description: (No cooling, Less Cooling, Water Leaking etc)*
+Complete Clinic Address with PIN CODE:
+Video of Issue Attached?* (Yes/No)
+Description*"
+Report an issue,Clinic App,Swaasa/iHub Related Issue,iHUB Related Issues,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Error*(Unable to Login, Application Not Opening, Unable to connect to CHE Platform, Unable to fetch Report, Others)
+Login ID
+Login Password
+Do cardioscreen Installed on Device (Yes/No)
+Remarks if Any
+Screenshot / video of the error :- "
+Report an issue,Clinic App,Swaasa/iHub Related Issue,Swaasa Related Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Error*(Unable to Login, Application Not Opening, Unable to Perform Test, Unable to fetch Report, Unable to Add Patient, Others)
+Remarks if Any
+Screenshot / video of the error :- (Screen shot of the appointment page)"
+Request,CHE,Membership Card Related Request,Bill Deletion - Membership Card,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Deletion Type* (Pre Filled - Full)
+Service* (Pre Filled - Membership)
+Patient Name*
+Patient Mobile Number*
+Patient ID*
+Date of Purchased Membership
+Membership Type (Prime, Wellness, Wellness Pro, Diabetes care)
+Membership Group Type (Single,Twin,Family)
+Transaction Id
+Total Amount
+Mode of Payment
+Deletion Reason*
+Screenshot / video  if applicable"
+Report an issue,CHE,Patient Registration Issue,Unable to register patient on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Error* (Unable to Enter Details, OTP Not Sent, OTP not Validated, Patient Details not showing after registration)
+Error facing with ( Particular 1 patient, All Patients)
+Patient Number:-
+Patient Name:-
+Screenshot / video  if applicable"
+Request,Consumables/ Device,Consumables/Device Required,Consumables Required ,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Clinic Address*
+Clinic PIN CODE*
+Consumables Required & Quantity*
+Requirement for Camp or Clinic?*"
+Request,Consumables/ Device,Consumables/Device Required,Device Required ,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Clinic Address*
+Clinic PIN CODE*
+Device Required & Quantity*
+Requirement for Camp or Clinic?*
+Description*
+Video of Device Attached (Yes/No)*"
+Report an issue,CHE,Hospital/Doctor/Lab Partner not showing on CHE,Hospital onboarded but not showing on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Hospital Name*
+Photo/Video of Issue Attached*
+Description*"
+Report an issue,CHE,Hospital/Doctor/Lab Partner not showing on CHE,Doctor onboarded but not showing on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Doctor Name*
+Photo/Video of Issue Attached*
+Description*"
+Report an issue,CHE,Hospital/Doctor/Lab Partner not showing on CHE,Lab Partner onboarded but not showing on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Lab Name*
+Photo/Video of Issue Attached*
+Description*"
+Request,Marketing & Branding,Marketing Collateral Request,Health Card Requirement,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Quantity Of Health Card Required*
+Photo of Card Attached (Yes/No)*
+Description*"
+Request,Marketing & Branding,Marketing Collateral Request,Leaflet Requirement,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Quantity of Leaflet Required*
+Photo of Leaflet Attached (Yes/No)*
+Description*"
+Report an issue,Marketing & Branding,Marketing & Branding Related Issue,Signage Board Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Type of Signage Board (Banner, Standee, Main CureBay Board)*
+Photo of Signage Board Attached (Yes/No)*
+Description*"
+Report an issue,Infrastructure ,Infrastructure Related Issue,Electricity Related Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Clinic Address*
+Clinic PIN CODE*
+Date of Issue*
+Description of Issue*
+Photo Attached (Yes/No)*"
+Report an issue,CHE,Package Related issue,Package not showing on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Package Name
+Package Already Availed? (Yes/No)
+Patient Number:-
+Patient Name:-
+Patient ID
+Description
+Photo of error attached (Yes/No)"
+Report an issue,CHE,Pharmacy Related Issue,Incorrect medicine order received,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Order Date
+Order Transaction ID
+Actual Order Items
+Mismatched Items
+Received Date
+Patient Number:-
+Patient Name:-
+Patient ID
+Desciption
+Screenshot of Medicine Received Attached (Yes/No)
+Screenshot of Invoice Attached (Yes/No)"
+Report an issue,CHE,Pharmacy Related Issue,Partial medicine order received,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Order Date
+Order Transaction ID
+Actual Order Items
+Missing Items
+Received Date
+Patient Number:-
+Patient Name:-
+Patient ID
+Desciption
+Screenshot of Medicine Received Attached (Yes/No)
+Screenshot of Invoice Attached (Yes/No)"
+Request,Marketing & Branding,Marketing Collateral Request,Banner Requirement,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Type of Signage Board (Banner, Standee, Main CureBay Board)*
+Photo of Banner Attached (Yes/No)*
+Description*"
+Report an issue,Infrastructure ,Infrastructure Related Issue,Toilet Related Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Video of Toilet Attached (Yes/No)*
+Start Date of Issue*
+Issue Description*"
+Report an issue,Finance,Infrastructure Related Issue,Bio-medical Waste Related Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name*
+Patient Mobile Number*
+Patient ID*
+Patient Aadhaar/Pan Card Number
+Attachment of documents -
+1. Duly filled signed Claim form with signature of member (Please note there are different claim forms for CARE & Magma) Care is Membership 3.0 and Magma is Membership 2.0
+2. Cancelled Cheque in the name of proposer/member – Member name should be printed on Cheque, Alternatively /bank passbook first page can be shared
+3. Detailed Discharge Summary - Date & Time of admission and discharge, final diagnosis, past histor, treatment given etc should ideally be mentioned, If the same is not given in the discharge summary please arrange for the same from the clinic/hospital.
+4. KYC details - Aadhar/PAN card
+5. Hospicash policy document and policy number.
+6. Treating doctor certificate for detailed case history with progression, duration and past history of the present ailment ( If required, this will be asked by Bima Team)
+7. Final Hospital Bill (If required, this will be asked by Bima Team)"
+Report an issue,CHE,Allied Service Related Issue,Ambulance Related Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Issue* (Unable to Book Ambulance, Ambulance Not Reached, Ambulance Denied for Service)
+Order Date
+Order Transaction ID
+Date of Service:
+From Location
+To Location
+Ambulance Type
+Patient Number:-
+Patient Name:-
+Patient ID
+Description
+Screenshot f applicable:- "
+Report an issue,CHE,Allied Service Related Issue,Nursing Related Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Number:
+Patient Name:
+Patient ID:
+Description"
+Request,CHE,Allied Service Related Request,Ambulance Related Request,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Service Date:
+Service Time:
+Pickup Location
+Drop Location
+Ambulance Type  (Basic Life Support (BLS) Ambulance,Advanced Life Support (ALS) Ambulance,Critical Care Ambulance, Neonatal Ambulance)
+Patient Number:-
+Patient Name:-
+Patient ID
+Description"
+Request,CHE,Lab Related Request,Radiology Test - Enquiry Form,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Mobile Number
+Patient ID
+Test Name
+Payment Mode
+Test Price
+Discount Allowed 
+Net Payble amount
+Billing Status
+Screenshot Atatched, if applicable (Yes/No)"
+Report an issue,CHE,Doctor Related Issue,Unable to book open doctor slot,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Doctor Name*
+Consultation Type* (Quick, Video, Inperson)
+Date of Booking*
+Time of Booking*
+Patient Name*
+Patient Mobile*
+Patient ID*
+Video/Photo of Issue Attached (Yes/No)*
+Issue Description*"
+Report an issue,Marketing & Branding,Marketing & Branding Related Issue,Marketing Material Not Received,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Name of Marketing Material  Requested and Quantity*
+Date Of Marketing Material Request Made*
+Ticket Number of Request Made*
+Photo of Marketing Material Sample (Yes/No)*
+Clinic Address WIth PIN CODE*
+Issue Description*"
+Report an issue,Consumables/ Device,Consumables/ Device Related Issue,Consumables Not Received,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Name of Consumables and Quantity Raised *
+Date Of Consumables Request Made*
+Ticket Number of Request Made*
+Issue Description*
+Clinic Address with PIN CODE*"
+Report an issue,Consumables/ Device,Consumables/ Device Related Issue,Device Not Received,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Name of Device and Quantity Raised *
+Date Of Device Request Made*
+Ticket Number of Request Made*
+Issue Description*
+Clinic Address with PIN CODE*"
+Report an issue,CHE,Top-Up Related Issue,Top-Up Not Reflecting on CHE,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Issue Description
+Last Top-Up Amount
+Screenshot of issue Attached (Yes/No)"
+Request,Clinic App,iHub/Swaasa Related Requests,iHub/Swaasa ID and Password Required,"Clinic Name*
+Your Name*
+Staff Email ID*
+Clinic Email ID*
+Phone Number*
+Clinic Phone Number
+COM*
+iHub or Swaasa?
+Description*"
+Report an issue,CHE,Doctor Related Issue,Unable to do free follow-up consultation (only for empanelled doctor),"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Patient Name
+Patient Mobile Number
+Patient ID
+First Consultation Date
+Doctor Name- First Consultation
+Description
+Screenshot of Error Attached (Yes/No)"
+Report an issue,Clinic App,Doctor App Related Issue,Doctor App Related Issue,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Doctor Name*
+Doctor App Login Details (ID and Password)*
+Issue Description*
+Video of the Issue Attached* (Yes/No)"
+Request,Clinic App,Doctor App Related Requests,Doctor App Related Requests,"""Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Doctor Name*
+Doctor App Login Details (ID and Password)*
+Description*
+Video Attached* (Yes/No)"""
+Request,Infrastructure ,Infrastructure Related Request,Infrastructure Related Request,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Description*
+Clinic Address with PIN CODE*"
+Request,CHE,Allied Service Related Request,Nursing Related Request,"Clinic Name*
+Your Name*
+Official Email Address *
+Phone Number*
+Clinic Phone Number
+COM*
+Start Date:
+End Date:
+Complete Address with Pin Code:
+Patient Number:
+Patient Name
+Patient ID
+Description"
