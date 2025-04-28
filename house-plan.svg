@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>house-plan</title>
+	<defs>
+		<image  width="32" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAMAAAA3HE0QAAAAAXNSR0IB2cksfwAAAM9QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////y0Y0tQAAAEV0Uk5TFVUAB1EUdf90QnfuzEklyKoQIgKZESuIRclzDkYq1pUX+A0YCTMTlwhxpCClUpQbZmUcYxktqS45xqwL1d07u5KuYYRKQAmjjAAAAR9JREFUeJy1081LAkEYBvD32R03s9z1IEF1EMsEE6JT4CWif7xDFyEoiEBhpUSCQLBIXMPKnXbWsZ2dMfXSe1ne2d/Ox8MsCCSKW0TAlPRicGYAn0QbofE++ig3ZYIgINo2ZuDfdgQ2h+qYN5qpAt6I3A8TZHOv8TPjDtYEO0A/Bbz3Al4k2PtyYGn7yhbHW+hJIHZvALlECd3loPwkg6gAHRWwsp80FW6j9njYVkFYbyXNsX9gHDNVi3JYDep40EEJuLNOQxu3YvCkO9TBkV/FzVm7huYcNBBfAtynluDn178zFL19PNM4+BPIwNx/BRe4Wg4WBLUSNCZxULuZngYYZJsPRkSXTSV2ce0dJL01Eb8SqRVFmgzYnEf3IQ3YD55DkF/F5XZsAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="2"/>
+</svg>
