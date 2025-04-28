@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>blueprint</title>
+	<defs>
+		<image  width="32" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAMAAACsjQ8GAAAAAXNSR0IB2cksfwAAAI1QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////v6aiKwAAAC90Uk5TBCEMAMn/WMjHtFWOcsqREI1PgOMOV7iTUyI9Sf3vMfzgTILm1iwLM9KlD9nYxiBrzB/xAAAA2ElEQVR4nK3SWwsBQRQH8PPfXZdF4QGLsrFCKd//c3iUJcq9PKhFFmNmL2JvpZyHmYfzm5lzmgMCQHHBGIMCPGKBzCSkKBGQA1LRRLZ/AEq4UHb/BOlrCGRv30B177Ao756/BEH+4iRydHZ21UoESganICi6T8AWoHQM1+DXVhCgDByCoOo1in1yDX5EgxrtyFsjgbZubjiorxrbvwIdWAqggzDvPDmQZm1GbCFAi09UzySK/SwiA0WN9252nyEgTQ3GZwLDSdSsvKOPbPxEihiARoeEfGX8AgUyoDhYNMLKAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="4"/>
+</svg>
