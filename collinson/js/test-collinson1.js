@@ -1401,7 +1401,7 @@ jQuery(document).ready(function ($) {
       }
 
       if ($("#cb").prop("checked") == true) {
-        $("#continue").attr("data-dismiss", "modal");
+        $("#continue").attr("data-bs-dismiss", "modal");
         //grey out continue - opposite - for different schemes
         if ($("#title").hasClass("VHI")) {
           $("#continue").css("background-color", "#38133E");
@@ -1413,10 +1413,10 @@ jQuery(document).ready(function ($) {
           $("#continue").css("background-color", "#083050");
         }
       } else {
-        $("#continue").removeAttr("data-dismiss");
+        $("#continue").removeAttr("data-bs-dismiss");
         //grey out continue
         $("#continue").css("background-color", "grey");
-        $("#continue").removeAttr("data-dismiss");
+        $("#continue").removeAttr("data-bs-dismiss");
       }
     } else if (
       $("#title").hasClass("VHI") ||
@@ -1561,7 +1561,7 @@ jQuery(document).ready(function ($) {
         createCaptcha();
       }
       if ($("#cb").prop("checked") == true) {
-        $("#continue").attr("data-dismiss", "modal");
+        $("#continue").attr("data-bs-dismiss", "modal");
         //grey out continue - opposite - for different schemes
         if ($("#title").hasClass("VHI")) {
           $("#continue").css("background-color", "#38133E");
@@ -1573,10 +1573,10 @@ jQuery(document).ready(function ($) {
           $("#continue").css("background-color", "#083050");
         }
       } else {
-        $("#continue").removeAttr("data-dismiss");
+        $("#continue").removeAttr("data-bs-dismiss");
         //grey out continue
         $("#continue").css("background-color", "grey");
-        $("#continue").removeAttr("data-dismiss");
+        $("#continue").removeAttr("data-bs-dismiss");
       }
     } else if ($("#title").hasClass("CollinsonUK")) {
       if (
@@ -1716,7 +1716,7 @@ jQuery(document).ready(function ($) {
         createCaptcha();
       }
       if ($("#cb").prop("checked") == true) {
-        $("#continue").attr("data-dismiss", "modal");
+        $("#continue").attr("data-bs-dismiss", "modal");
         //grey out continue - opposite - for different schemes
         if ($("#title").hasClass("VHI")) {
           $("#continue").css("background-color", "#38133E");
@@ -1728,10 +1728,10 @@ jQuery(document).ready(function ($) {
           $("#continue").css("background-color", "#083050");
         }
       } else {
-        $("#continue").removeAttr("data-dismiss");
+        $("#continue").removeAttr("data-bs-dismiss");
         //grey out continue
         $("#continue").css("background-color", "grey");
-        $("#continue").removeAttr("data-dismiss");
+        $("#continue").removeAttr("data-bs-dismiss");
       }
     }
   });
@@ -2063,7 +2063,7 @@ jQuery(document).ready(function ($) {
   $("#cb").click(function () {
     if ($("#cb").prop("checked") == true) {
       //ad attribute to dismiss modal
-      $("#continue").attr("data-dismiss", "modal");
+      $("#continue").attr("data-bs-dismiss", "modal");
       //grey out continue - opposite
       if ($("#title").hasClass("VHI")) {
         $("#continue").css("background-color", "#38133E");
@@ -2075,10 +2075,10 @@ jQuery(document).ready(function ($) {
         $("#continue").css("background-color", "#083050");
       }
     } else {
-      $("#continue").removeAttr("data-dismiss");
+      $("#continue").removeAttr("data-bs-dismiss");
       //grey out continue
       $("#continue").css("background-color", "grey");
-      $("#continue").removeAttr("data-dismiss");
+      $("#continue").removeAttr("data-bs-dismiss");
     }
   });
 
