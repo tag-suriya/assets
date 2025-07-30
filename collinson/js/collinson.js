@@ -403,19 +403,19 @@ jQuery(document).ready(function ($) {
     //add save and continue button - add section 1
     if ($("#title").hasClass("ColumbusItaly")) {
       $(
-        '<button id="save_and_continue1" class="btn btn-primary for-section-1 save_and_continue" type="button">Trova la polizza</button>'
+        '<button id="save_and_continue1" class="btn btn-primary for-section-1 save_and_continue" type="button" data-bs-target="#agreementModal" data-bs-toggle="modal">Trova la polizza</button>'
       ).insertAfter("#helpdesk_ticket_custom_field_cf_claim_number_2321673");
     } else if ($("#title").hasClass("EasyJet")) {
       $(
-        '<button id="save_and_continue1" class="btn btn-primary for-section-1 save_and_continue" type="button">Find Policy</button>'
+        '<button id="save_and_continue1" class="btn btn-primary for-section-1 save_and_continue" type="button" data-bs-target="#agreementModal" data-bs-toggle="modal">Find Policy</button>'
       ).insertAfter("#helpdesk_ticket_custom_field_cf_claim_number_2321673");
     } else if ($("#title").hasClass("CollinsonUK")) {
       $(
-        '<button id="save_and_continue1" class="btn btn-primary for-section-1 save_and_continue" type="button">Find Policy</button>'
+        '<button id="save_and_continue1" class="btn btn-primary for-section-1 save_and_continue" type="button" data-bs-target="#agreementModal" data-bs-toggle="modal">Find Policy</button>'
       ).insertAfter("#helpdesk_ticket_custom_field_cf_claim_number_2321673");
     } else if ($("#title").hasClass("VHI")) {
       $(
-        '<button id="save_and_continue1" class="btn btn-primary for-section-1 save_and_continue" type="button">Find Policy</button>'
+        '<button id="save_and_continue1" class="btn btn-primary for-section-1 save_and_continue" type="button" data-bs-target="#agreementModal" data-bs-toggle="modal">Find Policy</button>'
       ).insertAfter("#helpdesk_ticket_custom_field_cf_claim_number_2321673");
     }
 
@@ -715,40 +715,19 @@ jQuery(document).ready(function ($) {
 
   function thisDiv(number, title) {
     $(".for-section-" + number).wrapAll(
-      '<div id="collapseSection' +
-        number +
-        '" class="collapse order' +
-        number +
-        " wrap_div_" +
-        number +
-        '" data-bs-parent="#accordion" aria-labelledby="overall_div_' +
-        number +
-        '">' +
-        '<div class="card-body" id="card-section-' +
-        number +
-        '">'
+      '<div id="collapseSection' + number + '" class="collapse order' + number + ' wrap_div_' + number + '" data-bs-parent="#accordion" aria-labelledby="overall_div_' + number + '">' +
+      '<div class="card-body" id="card-section-' + number + '">'
     );
-    $(
-      '<div id="overall_div_' +
-        number +
-        '" class="card-header ins-div wrap_div_' +
-        number +
-        '"> ' +
-        '<div class="col-md-6">' +
-        '<h5 class="mb-0 header-text">' +
-        title +
-        "</h5>" +
-        "</div>" +
-        '	<div class="col-md-6" style="float: right;"> ' +
-        '<div id="section-' +
-        number +
-        '-button" class="ins-col-test collapsed  col align-self-end"  data-bs-target="#collapseSection' +
-        number +
-        '" aria-expanded="false">' +
-        '<span class="plus-sign fas fa-plus"></span>' +
-        "</div>" +
-        "	</div>" +
-        "</div>"
+    $('<div id="overall_div_' + number + '" class="card-header ins-div wrap_div_' + number + '">' +
+      '<div class="col-md-6">' +
+      '<h5 class="mb-0 header-text">' + title + '</h5>' +
+      '</div>' +
+      '<div class="col-md-6" style="float: right;">' +
+      '<div id="section-' + number + '-button" class="ins-col-test collapsed col align-self-end" data-bs-target="#collapseSection' + number + '" aria-expanded="false">' +
+      '<span class="plus-sign fas fa-plus"></span>' +
+      '</div>' +
+      '</div>' +
+      '</div>'
     ).insertBefore("#collapseSection" + number);
     $(".wrap_div_" + number).wrapAll(
       '<div class="card ins-card order' + number + '">'
@@ -1074,11 +1053,7 @@ jQuery(document).ready(function ($) {
     $(".ticket-detail-dummy").css("display", "table");
     $("#collapseSection4").collapse("hide");
 
-    $("#section-2-button").attr("data-bs-toggle", "collapse");
-    $("#section-3-button").attr("data-bs-toggle", "collapse");
-    $("#section-4-button").attr("data-bs-toggle", "collapse");
-    $("#section-5-button").attr("data-bs-toggle", "collapse");
-    $("#section-6-button").attr("data-bs-toggle", "collapse");
+    $("#section-2-button, #section-3-button, #section-4-button, #section-5-button, #section-6-button").attr("data-bs-toggle", "collapse");
   }
 
   function checkedfilled(list_of_elements) {
@@ -1235,10 +1210,7 @@ jQuery(document).ready(function ($) {
       .children(":first")
       .addClass("fa-plus");
     //ENABLE NEXT SECTION +!
-    $("#section-" + (section_number + 1) + "-button").attr(
-      "data-bs-toggle",
-      "collapse"
-    );
+    $("#section-" + (section_number + 1) + "-button").attr("data-bs-toggle", "collapse");
     $("#collapseSection" + (section_number + 1)).addClass("show");
     //sign swap
     $("#section-" + (section_number + 1) + "-button")
@@ -1266,8 +1238,7 @@ jQuery(document).ready(function ($) {
   }
 
   //BY DEFAULT -  add attribute to section-1-button
-  $("#section-1-button").attr("data-bs-toggle", "collapse");
-  $("#section-7-button").attr("data-bs-toggle", "collapse");
+  $("#section-1-button, #section-7-button").attr("data-bs-toggle", "collapse");
   //open section 1 by default
   if ($(".edit_helpdesk_ticket").length > 0) {
     //close section 4
@@ -1330,23 +1301,20 @@ jQuery(document).ready(function ($) {
                 "helpdesk_ticket_custom_field_cf_policy_number_post_office_2321673",
                 "Il numero di polizza deve essere di almeno 6 cifre."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             } else {
               addErrorMessage(
                 "helpdesk_ticket_custom_field_cf_policy_number_post_office_2321673",
                 "Policy Number must be at least 6 digits."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             }
           } else if (!policyEmailValue.match(mailformat)) {
             addErrorMessage(
               "helpdesk_ticket_custom_field_cf_policy_email_2321673",
               "Email should be in proper format"
             );
-            $("#save_and_continue1").removeAttr("data-bs-target");
-            $("#save_and_continue1").removeAttr("data-bs-toggle");
+           $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
           } else {
             //create variables for invoke
             let policyNumber = $(
@@ -1372,8 +1340,7 @@ jQuery(document).ready(function ($) {
               );
             }
             //
-            $("#save_and_continue1").attr("data-bs-target", "#agreementModal");
-            $("#save_and_continue1").attr("data-bs-toggle", "modal");
+            $("#save_and_continue1").attr({ "data-bs-target": "#agreementModal", "data-bs-toggle": "modal" });
             clearError([
               "helpdesk_ticket_custom_field_cf_policy_email_2321673",
               "helpdesk_ticket_custom_field_cf_policy_number_post_office_2321673",
@@ -1475,8 +1442,7 @@ jQuery(document).ready(function ($) {
                   "Invalid Birthday"
                 );
               }
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             } else if (today > bday) {
               let policyNumber = $(
                 "#helpdesk_ticket_custom_field_cf_policy_number_post_office_2321673"
@@ -1502,8 +1468,7 @@ jQuery(document).ready(function ($) {
                 );
               }
               //changes started for error
-              $("#save_and_continue1").attr("data-bs-target", "#agreementModal");
-              $("#save_and_continue1").attr("data-bs-toggle", "modal");
+              $("#save_and_continue1").attr({ "data-bs-target": "#agreementModal", "data-bs-toggle": "modal" });
 
               clearError([
                 "helpdesk_ticket_custom_field_cf_date_of_birth_2321673",
@@ -1521,8 +1486,7 @@ jQuery(document).ready(function ($) {
                   "Invalid Birthday"
                 );
               }
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             }
           } else {
             if ($("#title").hasClass("ColumbusItaly")) {
@@ -1530,15 +1494,13 @@ jQuery(document).ready(function ($) {
                 "helpdesk_ticket_custom_field_cf_policy_number_post_office_2321673",
                 "Il numero di polizza deve essere di almeno 6 cifre."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             } else {
               addErrorMessage(
                 "helpdesk_ticket_custom_field_cf_policy_number_post_office_2321673",
                 "Policy Number must be at least 6 digits."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             }
           }
         }
@@ -1632,8 +1594,7 @@ jQuery(document).ready(function ($) {
                   "Invalid Birthday"
                 );
               }
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             } else if (today > bday) {
               let policyNumber = $(
                 "#helpdesk_ticket_custom_field_cf_policy_number_post_office_2321673"
@@ -1659,8 +1620,7 @@ jQuery(document).ready(function ($) {
                 );
               }
               //changes started for error
-              $("#save_and_continue1").attr("data-bs-target", "#agreementModal");
-              $("#save_and_continue1").attr("data-bs-toggle", "modal");
+              $("#save_and_continue1").attr({ "data-bs-target": "#agreementModal", "data-bs-toggle": "modal" });
               clearError([
                 "helpdesk_ticket_custom_field_cf_date_of_birth_2321673",
                 "helpdesk_ticket_custom_field_cf_policy_number_post_office_2321673",
@@ -1677,8 +1637,7 @@ jQuery(document).ready(function ($) {
                   "Invalid Birthday"
                 );
               }
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             }
           } else {
             if ($("#title").hasClass("ColumbusItaly")) {
@@ -1686,15 +1645,13 @@ jQuery(document).ready(function ($) {
                 "helpdesk_ticket_custom_field_cf_policy_number_post_office_2321673",
                 "Il numero di polizza deve essere di almeno 6 cifre."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             } else {
               addErrorMessage(
                 "helpdesk_ticket_custom_field_cf_policy_number_post_office_2321673",
                 "Policy Number must be at least 6 digits."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             }
           }
         }
@@ -1792,8 +1749,7 @@ jQuery(document).ready(function ($) {
                 "Something's not quite right. Please try again using the policy number shown on your insurance document."
               );
             }
-            $("#save_and_continue1").removeAttr("data-bs-target");
-            $("#save_and_continue1").removeAttr("data-bs-toggle");
+            $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             console.log("error 404 -->", result);
           } else if (statusCode == 403) {
             if ($("#title").hasClass("ColumbusItaly")) {
@@ -1806,8 +1762,7 @@ jQuery(document).ready(function ($) {
                 "api_call_failed_dob",
                 "Attenzione, qualcosa non ha funzionato. Per favore riprova e se il problema persiste, contatta l'ufficio sinistri."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             } else {
               console.log("--->", result, statusCode);
               jQuery("#model-error-msg").removeClass("d-none");
@@ -1818,8 +1773,7 @@ jQuery(document).ready(function ($) {
                 "api_call_failed_dob",
                 "Warning Something's not quite right. Please try again and if the problem persists please contact the team using the 'Contact Us' button in the footer."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             }
           } else if (statusCode == 500) {
             if ($("#title").hasClass("ColumbusItaly")) {
@@ -1831,8 +1785,7 @@ jQuery(document).ready(function ($) {
                 "api_call_failed_dob",
                 "Attenzione, qualcosa non ha funzionato. Per favore riprova e se il problema persiste, contatta l'ufficio sinistri."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
               console.log("error 500 -->", result);
             } else {
               jQuery("#model-error-msg").removeClass("d-none");
@@ -1843,8 +1796,7 @@ jQuery(document).ready(function ($) {
                 "api_call_failed_dob",
                 "Warning Something's not quite right. Please try again and if the problem persists please contact the team using the 'Contact Us' button in the footer."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
               console.log("error 500 -->", result);
             }
           }
@@ -1906,8 +1858,7 @@ jQuery(document).ready(function ($) {
                 "api_call_failed_postcode",
                 "Qualcosa non va. Si prega di riprovare utilizzando il numero di polizza riportato sul documento assicurativo."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
               console.log("error 404 -->", result);
             } else {
               jQuery("#model-error-msg").removeClass("d-none");
@@ -1918,8 +1869,7 @@ jQuery(document).ready(function ($) {
                 "api_call_failed_postcode",
                 "Something's not quite right. Please try again using the policy number shown on your insurance document."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
               console.log("error 404 -->", result);
             }
           } else if (statusCode == 403) {
@@ -1933,8 +1883,7 @@ jQuery(document).ready(function ($) {
                 "api_call_failed_postcode",
                 "Attenzione, qualcosa non ha funzionato. Per favore riprova e se il problema persiste, contatta l'ufficio sinistri."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             } else {
               console.log("--->", result, statusCode);
               jQuery("#model-error-msg").removeClass("d-none");
@@ -1945,8 +1894,7 @@ jQuery(document).ready(function ($) {
                 "api_call_failed_postcode",
                 "Warning Something's not quite right. Please try again and if the problem persists please contact the team using the 'Contact Us' button in the footer."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
             }
           } else if (statusCode == 500) {
             if ($("#title").hasClass("ColumbusItaly")) {
@@ -1958,8 +1906,7 @@ jQuery(document).ready(function ($) {
                 "api_call_failed_dob",
                 "Attenzione, qualcosa non ha funzionato. Per favore riprova e se il problema persiste, contatta l'ufficio sinistri."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
               console.log("error 500 -->", result);
             } else {
               jQuery("#model-error-msg").removeClass("d-none");
@@ -1970,8 +1917,7 @@ jQuery(document).ready(function ($) {
                 "api_call_failed_dob",
                 "Warning Something's not quite right. Please try again and if the problem persists please contact the team using the 'Contact Us' button in the footer."
               );
-              $("#save_and_continue1").removeAttr("data-bs-target");
-              $("#save_and_continue1").removeAttr("data-bs-toggle");
+              $("#save_and_continue1").removeAttr("data-bs-target data-bs-toggle");
               console.log("error 500 -->", result);
             }
           }
@@ -2317,14 +2263,12 @@ jQuery(document).ready(function ($) {
             list_to_check1[i],
             "Si prega di compilare tutti i campi"
           );
-          $("#save_and_continue3").removeAttr("data-bs-target");
-          $("#save_and_continue3").removeAttr("data-bs-toggle");
+          $("#save_and_continue3").removeAttr("data-bs-target data-bs-toggle");
         }
       } else {
         for (var i = 0; i < list_to_check1.length; i++) {
           addErrorMessage(list_to_check1[i], "Please fill in all fields");
-          $("#save_and_continue3").removeAttr("data-bs-target");
-          $("#save_and_continue3").removeAttr("data-bs-toggle");
+          $("#save_and_continue3").removeAttr("data-bs-target data-bs-toggle");
         }
       }
     }
@@ -6115,8 +6059,7 @@ jQuery(document).ready(function ($) {
       ) {
         //add attribute for modal to button
         clearError(list_to_check2);
-        $("#save_and_continue3").attr("data-bs-toggle", "modal");
-        $("#save_and_continue3").attr("data-bs-target", "ClaimAPIModal");
+        $("#save_and_continue3").attr({ "data-bs-toggle": "modal", "data-bs-target": "ClaimAPIModal" });
         let claimObject = {};
         let destiny = getAKey(
           "helpdesk_ticket_custom_field_cf_your_destination_2321673",
@@ -6194,8 +6137,7 @@ jQuery(document).ready(function ($) {
             list_to_check2[i],
             "Please check the dates entered and try again."
           );
-          $("#save_and_continue3").removeAttr("data-bs-target");
-          $("#save_and_continue3").removeAttr("data-bs-toggle");
+          $("#save_and_continue3").removeAttr("data-bs-target data-bs-toggle");
         }
       }
     } else {
@@ -6206,12 +6148,10 @@ jQuery(document).ready(function ($) {
             list_to_check2[i],
             "Si prega di compilare tutti i campi."
           );
-          $("#save_and_continue3").removeAttr("data-bs-target");
-          $("#save_and_continue3").removeAttr("data-bs-toggle");
+          $("#save_and_continue3").removeAttr("data-bs-target data-bs-toggle");
         } else {
           addErrorMessage(list_to_check2[i], "Please fill in all fields");
-          $("#save_and_continue3").removeAttr("data-bs-target");
-          $("#save_and_continue3").removeAttr("data-bs-toggle");
+          $("#save_and_continue3").removeAttr("data-bs-target data-bs-toggle");
         }
       }
     }
@@ -6484,9 +6424,7 @@ jQuery(document).ready(function ($) {
 
     //remove edit from first three sections
     jQuery("#collapseSection4 .form-control").removeAttr("required");
-    $("#section-1-button").removeAttr("data-bs-toggle");
-    $("#section-2-button").removeAttr("data-bs-toggle");
-    $("#section-3-button").removeAttr("data-bs-toggle");
+    $("#section-1-button, #section-2-button, #section-3-button").removeAttr("data-bs-toggle");
 
     $("#section-1-button").children(":first").removeClass("fa-plus");
     $("#section-1-button").children(":first").removeClass("fa-minus");
