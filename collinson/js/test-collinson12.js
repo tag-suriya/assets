@@ -723,7 +723,7 @@ jQuery(document).ready(function ($) {
       '<h5 class="mb-0 header-text">' + title + '</h5>' +
       '</div>' +
       '<div class="col-md-6" style="float: right;">' +
-      '<div id="section-' + number + '-button" class="ins-col-test collapsed col align-self-end" ' + 'data-bs-toggle="collapse" data-bs-target="#collapseSection' + number + '" aria-expanded="false">' +
+      '<div id="section-' + number + '-button" class="ins-col-test collapsed col align-self-end" data-bs-target="#collapseSection' + number + '" aria-expanded="false">' +
       '<span class="plus-sign fas fa-plus"></span>' +
       '</div>' +
       '</div>' +
@@ -1154,18 +1154,39 @@ jQuery(document).ready(function ($) {
     }
   }
 
-  $(document).on("show.bs.collapse", ".collapse", function () {
-    const targetId = $(this).attr("id");
-    const trigger = $('[data-bs-target="#' + targetId + '"]');
-    trigger.find("span").removeClass("fa-plus").addClass("fa-minus");
-    trigger.removeClass("collapsed").attr("aria-expanded", "true");
-  });
+  $(".ins-col-test").click(function () {
+    //get element id
+    var id = $(this).attr("id");
 
-  $(document).on("hide.bs.collapse", ".collapse", function () {
-    const targetId = $(this).attr("id");
-    const trigger = $('[data-bs-target="#' + targetId + '"]');
-    trigger.find("span").removeClass("fa-minus").addClass("fa-plus");
-    trigger.addClass("collapsed").attr("aria-expanded", "false");
+    if (
+      !$("#" + id)
+        .children(":first")
+        .hasClass("fa-pen")
+    ) {
+      if (
+        $("#" + id)
+          .children(":first")
+          .hasClass("fa-plus") &&
+        $("#" + id).hasClass("collapsed") &&
+        $("#" + id).attr("data-bs-toggle")
+      ) {
+        $("#" + id)
+          .children(":first")
+          .removeClass("fa-plus")
+          .addClass("fa-minus");
+      } else if (
+        $("#" + id)
+          .children(":first")
+          .hasClass("fa-minus") &&
+        !$("#" + id).hasClass("collapsed") &&
+        $("#" + id).attr("data-bs-toggle")
+      ) {
+        $("#" + id)
+          .children(":first")
+          .removeClass("fa-minus")
+          .addClass("fa-plus");
+      }
+    }
   });
 
   function open_next(section_number) {
